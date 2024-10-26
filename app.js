@@ -5,7 +5,7 @@ const port = 3000;
 var connection = require("./database");
 
 const server = http.createServer(function (req, res) {
-  if (req.url.startsWith("/images/")) {
+  if (req.url.startsWith("/home/")) {
     // Serve static files (images, CSS, JS)
     const filePath = path.join(__dirname, req.url);
     const extname = path.extname(filePath);
