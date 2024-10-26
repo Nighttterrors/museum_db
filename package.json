@@ -1,11 +1,10 @@
 {
   "name": "museum_db",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no tests available\"",
-    "start": "node app.js"
-
+    "test": "echo \"Error: no tests available\""
+    
   },
   "keywords": [],
   "author": "",
